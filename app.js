@@ -34,7 +34,7 @@ routes(app);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('blurtao de server listening on port ' + app.get('port'));
-});
+}
 
 
 
